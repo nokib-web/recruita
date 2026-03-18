@@ -1,0 +1,330 @@
+﻿  Γû▓ Next.js 14.2.30
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (Failed to    
+ compile.:String)     
+[], RemoteExcepti    
+on
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+./src/app/globals.css.
+webpack[javascript/aut
+o]!=!./node_modules/ne
+xt/dist/build/webpack/
+loaders/css-loader/src
+/index.js??ruleSet[1].
+rules[14].oneOf[12].us
+e[2]!./node_modules/ne
+xt/dist/build/webpack/
+loaders/postcss-loader
+/src/index.js??ruleSet
+[1].rules[14].oneOf[12
+].use[3]!./src/app/glo
+bals.css
+ReferenceError: 
+module is not defined 
+in ES module scope
+    at file:///C:/Proj
+ects/Recruita/postcss.
+config.mjs:1:1
+    at ModuleJob.run (
+node:internal/modules/
+esm/module_job:345:25)
+    at async onImport.
+tracePromise.__proto__
+ (node:internal/module
+s/esm/loader:665:26)
+    at async 
+findConfig (C:\Project
+s\Recruita\node_module
+s\next\dist\lib\find-c
+onfig.js:90:21)
+    at async 
+getPostCssPlugins (C:\
+Projects\Recruita\node
+_modules\next\dist\bui
+ld\webpack\config\bloc
+ks\css\plugins.js:89:1
+8)
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\config\blocks\css
+\index.js:124:36
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\loaders\postcss-l
+oader\src\index.js:51:
+40
+    at async 
+Span.traceAsyncFn (C:\
+Projects\Recruita\node
+_modules\next\dist\tra
+ce\trace.js:154:20)
+
+Import trace for 
+requested module:
+./src/app/globals.css.
+webpack[javascript/aut
+o]!=!./node_modules/ne
+xt/dist/build/webpack/
+loaders/css-loader/src
+/index.js??ruleSet[1].
+rules[14].oneOf[12].us
+e[2]!./node_modules/ne
+xt/dist/build/webpack/
+loaders/postcss-loader
+/src/index.js??ruleSet
+[1].rules[14].oneOf[12
+].use[3]!./src/app/glo
+bals.css
+./src/app/globals.css
+
+./src/app/globals.css
+ReferenceError: 
+module is not defined 
+in ES module scope
+    at file:///C:/Proj
+ects/Recruita/postcss.
+config.mjs:1:1
+    at ModuleJob.run (
+node:internal/modules/
+esm/module_job:345:25)
+    at async onImport.
+tracePromise.__proto__
+ (node:internal/module
+s/esm/loader:665:26)
+    at async 
+findConfig (C:\Project
+s\Recruita\node_module
+s\next\dist\lib\find-c
+onfig.js:90:21)
+    at async 
+getPostCssPlugins (C:\
+Projects\Recruita\node
+_modules\next\dist\bui
+ld\webpack\config\bloc
+ks\css\plugins.js:89:1
+8)
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\config\blocks\css
+\index.js:124:36
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\loaders\postcss-l
+oader\src\index.js:51:
+40
+    at async 
+Span.traceAsyncFn (C:\
+Projects\Recruita\node
+_modules\next\dist\tra
+ce\trace.js:154:20)
+    at 
+tryRunOrWebpackError (
+C:\Projects\Recruita\n
+ode_modules\next\dist\
+compiled\webpack\bundl
+e5.js:28:312989)
+    at __webpack_requi
+re_module__ (C:\Projec
+ts\Recruita\node_modul
+es\next\dist\compiled\
+webpack\bundle5.js:28:
+131165)
+    at __nested_webpac
+k_require_153728__ (C:
+\Projects\Recruita\nod
+e_modules\next\dist\co
+mpiled\webpack\bundle5
+.js:28:130607)
+    at C:\Projects\Rec
+ruita\node_modules\nex
+t\dist\compiled\webpac
+k\bundle5.js:28:131454
+    at symbolIterator 
+(C:\Projects\Recruita\
+node_modules\next\dist
+\compiled\neo-async\as
+ync.js:1:14444)
+    at done (C:\Projec
+ts\Recruita\node_modul
+es\next\dist\compiled\
+neo-async\async.js:1:1
+4824)
+    at Hook.eval [as 
+callAsync] (eval at 
+create (C:\Projects\Re
+cruita\node_modules\ne
+xt\dist\compiled\webpa
+ck\bundle5.js:13:28858
+), <anonymous>:15:1)
+    at Hook.CALL_ASYNC
+_DELEGATE [as 
+_callAsync] (C:\Projec
+ts\Recruita\node_modul
+es\next\dist\compiled\
+webpack\bundle5.js:13:
+26012)
+    at C:\Projects\Rec
+ruita\node_modules\nex
+t\dist\compiled\webpac
+k\bundle5.js:28:130328
+    at symbolIterator 
+(C:\Projects\Recruita\
+node_modules\next\dist
+\compiled\neo-async\as
+ync.js:1:14402)
+-- inner error --
+ReferenceError: 
+module is not defined 
+in ES module scope
+    at file:///C:/Proj
+ects/Recruita/postcss.
+config.mjs:1:1
+    at ModuleJob.run (
+node:internal/modules/
+esm/module_job:345:25)
+    at async onImport.
+tracePromise.__proto__
+ (node:internal/module
+s/esm/loader:665:26)
+    at async 
+findConfig (C:\Project
+s\Recruita\node_module
+s\next\dist\lib\find-c
+onfig.js:90:21)
+    at async 
+getPostCssPlugins (C:\
+Projects\Recruita\node
+_modules\next\dist\bui
+ld\webpack\config\bloc
+ks\css\plugins.js:89:1
+8)
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\config\blocks\css
+\index.js:124:36
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\web
+pack\loaders\postcss-l
+oader\src\index.js:51:
+40
+    at async 
+Span.traceAsyncFn (C:\
+Projects\Recruita\node
+_modules\next\dist\tra
+ce\trace.js:154:20)
+    at 
+Object.<anonymous> (C:
+\Projects\Recruita\nod
+e_modules\next\dist\bu
+ild\webpack\loaders\cs
+s-loader\src\index.js?
+?ruleSet[1].rules[14].
+oneOf[12].use[2]!C:\Pr
+ojects\Recruita\node_m
+odules\next\dist\build
+\webpack\loaders\postc
+ss-loader\src\index.js
+??ruleSet[1].rules[14]
+.oneOf[12].use[3]!C:\P
+rojects\Recruita\src\a
+pp\globals.css:1:7)
+    at C:\Projects\Rec
+ruita\node_modules\nex
+t\dist\compiled\webpac
+k\bundle5.js:28:922493
+    at Hook.eval [as 
+call] (eval at create 
+(C:\Projects\Recruita\
+node_modules\next\dist
+\compiled\webpack\bund
+le5.js:13:28636), 
+<anonymous>:7:1)
+    at 
+Hook.CALL_DELEGATE 
+[as _call] (C:\Project
+s\Recruita\node_module
+s\next\dist\compiled\w
+ebpack\bundle5.js:13:2
+5906)
+    at C:\Projects\Rec
+ruita\node_modules\nex
+t\dist\compiled\webpac
+k\bundle5.js:28:131198
+    at 
+tryRunOrWebpackError (
+C:\Projects\Recruita\n
+ode_modules\next\dist\
+compiled\webpack\bundl
+e5.js:28:312943)
+    at __webpack_requi
+re_module__ (C:\Projec
+ts\Recruita\node_modul
+es\next\dist\compiled\
+webpack\bundle5.js:28:
+131165)
+    at __nested_webpac
+k_require_153728__ (C:
+\Projects\Recruita\nod
+e_modules\next\dist\co
+mpiled\webpack\bundle5
+.js:28:130607)
+    at C:\Projects\Rec
+ruita\node_modules\nex
+t\dist\compiled\webpac
+k\bundle5.js:28:131454
+    at symbolIterator 
+(C:\Projects\Recruita\
+node_modules\next\dist
+\compiled\neo-async\as
+ync.js:1:14444)
+
+Generated code for C:\
+Projects\Recruita\node
+_modules\next\dist\bui
+ld\webpack\loaders\css
+-loader\src\index.js??
+ruleSet[1].rules[14].o
+neOf[12].use[2]!C:\Pro
+jects\Recruita\node_mo
+dules\next\dist\build\
+webpack\loaders\postcs
+s-loader\src\index.js?
+?ruleSet[1].rules[14].
+oneOf[12].use[3]!C:\Pr
+ojects\Recruita\src\ap
+p\globals.css
+
+Import trace for 
+requested module:
+./src/app/globals.css
+
+
+> Build failed 
+because of webpack 
+errors

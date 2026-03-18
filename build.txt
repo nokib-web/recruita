@@ -1,0 +1,50 @@
+﻿node.exe : 
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (:String) [   
+ ], RemoteExceptio    
+n
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+> Build error occurred
+Error: Configuring 
+Next.js via 
+'next.config.ts' is 
+not supported. Please 
+replace the file with 
+'next.config.js' or 
+'next.config.mjs'.
+    at loadConfig (C:\
+Projects\Recruita\node
+_modules\next\dist\ser
+ver\config.js:800:19)
+    at async 
+Span.traceAsyncFn (C:\
+Projects\Recruita\node
+_modules\next\dist\tra
+ce\trace.js:154:20)
+    at async C:\Projec
+ts\Recruita\node_modul
+es\next\dist\build\ind
+ex.js:374:28
+    at async 
+Span.traceAsyncFn (C:\
+Projects\Recruita\node
+_modules\next\dist\tra
+ce\trace.js:154:20)
+    at async build (C:
+\Projects\Recruita\nod
+e_modules\next\dist\bu
+ild\index.js:368:9)
