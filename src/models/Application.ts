@@ -1,28 +1,28 @@
-import mongoose, { Schema, Document } from "mongoose";
+import mongoose, { Schema, Document, Model } from "mongoose";
 
 export interface IApplication extends Document {
-  job: mongoose.Types.ObjectId;
-  applicant: mongoose.Types.ObjectId;
-  status: "pending" | "reviewing" | "accepted" | "rejected";
-  coverLetter?: string;
-  resumeUrl?: string;
+  jobId: mongoose.Types.ObjectId;
+  userId: mongoose.Types.ObjectId;
+  coverLetter: string;
+  status: "pending" | "reviewed" | "accepted" | "rejected";
   createdAt: Date;
-  updatedAt: Date;
 }
 
 const ApplicationSchema = new Schema<IApplication>(
   {
-    job: { type: Schema.Types.ObjectId, ref: "Job", required: true },
-    applicant: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    jobId: { type: Schema.Types.ObjectId, ref: "Job", required: true },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    coverLetter: { type: String, required: true },
     status: {
       type: String,
-      enum: ["pending", "reviewing", "accepted", "rejected"],
+      enum: ["pending", "reviewed", "accepted", "rejected"],
       default: "pending",
     },
-    coverLetter: { type: String },
-    resumeUrl: { type: String },
   },
-  { timestamps: true }
+  { timestamps: { createdAt: true, updatedAt: false } }
 );
 
-export default mongoose.models.Application || mongoose.model<IApplication>("Application", ApplicationSchema);
+const Application: Model<IApplication> =
+  mongoose.models.Application || mongoose.model<IApplication>("Application", ApplicationSchema);
+
+export default Application;
